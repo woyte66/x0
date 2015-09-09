@@ -18,12 +18,15 @@ void setup() {
 
 // Next frame. //
 void draw() {
+  fill(255);
   text( title, 10, 10 );
   text( subtitle, width/2, 10 );
   text( author, 10, height-10 );
   text( w+"x"+h, width/2,height-10 );
   //
   ellipse(x, y, w, h);
+  fill(0);
+  text("Bupkis Incarnate",x,y);
 }
 
 
